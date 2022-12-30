@@ -22,7 +22,7 @@ pip3 install -r requirements.txt
 ```
 - Запустите сайт с указанием пути до файла с данными (и опционально - с годом основания компании):
 ```bash
-python3 main.py ./drinks_info.xlsx --foundation_year=1980
+python3 main.py './drinks_info.xlsx' --foundation_year=1980
 ```
 - Перейдите на сайт по адресу:
 ```bash
